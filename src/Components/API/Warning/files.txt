@@ -1,0 +1,47 @@
+
+    {/* <Student id ={1} nom="Dembele" prenom="Soungalo salam" module="Web dev" annee={2024}  >{<Avatar />} </Student>
+
+    <Student id ={2} nom="Traore" prenom="Mamadou" module="Marketting Digital" annee={2024} />
+    <Student id ={2} nom={52} prenom="Mamadou" module="Marketting Digital" annee={2024} />
+    {/* <Hero /> */}
+     {/* <Counter />  */}
+    {/* <Ludo /> */}
+    {/* <Pluton /> */ }
+     {/* <Venus /> */}
+      {/* <ProductsList className="bg-dark"/> */}
+     {/* <UserConnected userName="Dembele" userStat={false}/> */}
+     {/* <ChangeName></ChangeName> */}
+     {/* <Menu></Menu>
+     {/* <Terre></Terre> */}
+     {/* <Effet></Effet> */}
+    
+     <Conrtext1></Conrtext1>
+     <Memo></Memo>
+     <Reducer></Reducer>
+     <Reducer2></Reducer2>
+   <Header>
+    
+   </Header>
+   <Carousels
+   imgSrc1="https://compasia.com.ph/cdn/shop/files/iphone-14-pro-max-228886_600x600_crop_center.png?v=1717653209"
+   imgSrc2="https://compasia.com.ph/cdn/shop/files/iphone-14-pro-max-228886_600x600_crop_center.png?v=1717653209"
+   imgSrc3="https://techsmartcm.com/wp-content/uploads/2024/01/Samsung-Galaxy-S24-Ultra.png"
+   imgAlt1={""}
+   imgAlt2={""}
+   imgAlt3={""}
+   ></Carousels>
+   <Search></Search>
+
+     <ProductCard nom = "Berté"
+     details = ""
+     price= {500}
+
+     >
+     
+
+     </ProductCard>
+     <ProductCard nom = "Co"></ProductCard>
+     <ProductCard nom = "Berté"></ProductCard>
+     <ProductCard nom = "Berté"></ProductCard>
+     <ProductCard nom = "Berté"></ProductCard>
+     <ProductCard nom = "Berté"></ProductCard>
