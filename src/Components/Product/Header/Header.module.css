@@ -1,0 +1,17 @@
+.navbar-custom {
+	background-color: #a529ec; /* Changez cette couleur selon vos besoins */
+  }
+  
+  .navbar-center {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+  }
+  
+  .navbar-center .navbar-nav {
+	flex-direction: row;
+  }
+  
+  .navbar-center .nav-link {
+	color: #ffffff; /* Changez cette couleur selon vos besoins */
+  }

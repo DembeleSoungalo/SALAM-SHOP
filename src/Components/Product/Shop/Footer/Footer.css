@@ -36,7 +36,7 @@
   }
   
   .footer-links a:hover {
-    color: #007bff;              /* Blue on hover */
+    color: #43CBFF;        /* Blue on hover */
     text-decoration: underline;
   }
   
@@ -62,7 +62,7 @@
   
   
   .footer button[type="submit"] {
-    background-color: #007bff;   /* Blue button */
+    background-color: #43CBFF;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -72,7 +72,8 @@
   }
   
   .footer button[type="submit"]:hover {
-    background-color: #0056b3;  /* Darker blue on hover */
+    background-image: linear-gradient(135deg,#9708CC, #43CBFF,#9708CC, #43CBFF );
+    /* background-color: #0056b3;  Darker blue on hover */
   }
   
   

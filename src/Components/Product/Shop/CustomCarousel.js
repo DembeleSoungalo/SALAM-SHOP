@@ -7,16 +7,14 @@ const CustomCarousel = ({ slides }) => {
     return (
       <Carousel>
         {slides.map((slide, index) => (
-          <Carousel.Item key={index}>
+          <Carousel.Item key={index} className=''>
+            <div className="align-content-center d-block">
             <img
               src={slide.image}
               alt={slide.altText}
-              className="d-block w-100"
+              className="d-block w-auto"
             />
-            <Carousel.Caption>
-              <h5>{slide.title}</h5>
-              <p>{slide.description}</p>
-            </Carousel.Caption>
+            </div>
           </Carousel.Item>
         ))}
       </Carousel>

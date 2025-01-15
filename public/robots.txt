@@ -1,3 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+ Allow all robots to access the following directories
+Allow: /public/
+Allow: /images/
+Allow: /css/
+Allow: /js/

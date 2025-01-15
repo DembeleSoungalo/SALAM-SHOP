@@ -10,7 +10,7 @@ function Footer() {
     e.preventDefault(); // Prevent page reload
     // Here you would typically handle form submission, e.g., send data to a server
     console.log('Form submitted:', { name, email, message });
-    // Reset form fields after submission (optional)
+  
     setName('');
     setEmail('');
     setMessage('');
@@ -18,7 +18,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Salam Tech electronics. All rights reserved.</p>
         <ul className="footer-links">
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms of Service</a></li>

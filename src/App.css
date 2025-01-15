@@ -36,4 +36,20 @@
     transform: rotate(360deg);
   }
 }
-
+.navbar-custom {
+  background-color: #1A237E; /* Dark Blue */
+}
+  
+  .navbar-center {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+  }
+  
+  .navbar-center .navbar-nav {
+	flex-direction: row;
+  }
+  
+  .navbar-center .nav-link {
+	color: #ffffff; 
+  }

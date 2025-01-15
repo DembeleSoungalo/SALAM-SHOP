@@ -29,13 +29,13 @@ const Carousels = ({imgSrc1,imgSrc2,imgSrc3,imgAlt1,imgAlt2,imgAlt3}) => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src={imgSrc1} className="d-block w-100" alt={imgAlt1} id="img1"/>
+        <img src={imgSrc1} className=" w-100" alt={imgAlt1} id="img1"/>
       </div>
       <div className="carousel-item">
-        <img src={imgSrc2} className="d-block w-100" alt={imgAlt2} id="img2"/>
+        <img src={imgSrc2} className="lg-d-block w-100" alt={imgAlt2} id="img2"/>
       </div>
       <div className="carousel-item">
-        <img src={imgSrc3} className="d-block w-100" alt={imgAlt3} id="img3"/>
+        <img src={imgSrc3} className="lg-d-block w-100" alt={imgAlt3} id="img3"/>
       </div>
     </div>
     <button

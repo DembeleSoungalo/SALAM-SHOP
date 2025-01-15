@@ -17,7 +17,10 @@ const ProductCard = ({model,price,logo,brand}) => {
   const removeProd = ()=>{
     setcout(count - 1)
   }
-
+const watp="https://wa.me/+22350326852"
+const getInTouch = ()=>{
+  window.open(watp)
+}
 
     const handleColorChange = (event) => {
         const target = event.target;
@@ -32,11 +35,9 @@ const ProductCard = ({model,price,logo,brand}) => {
   return (
       <div className="product-card ">
       <div className="logo-cart ">
-        <img src={""} alt="logo" />
-        <i className="bx bx-shopping-bag"></i>
       </div>
       <div className="main-images">
-    <img id="blue" className={`blue ${activeClass}`} src={logo} alt="blue" />
+    <img id="blue" className={`blue ${activeClass}`} src={logo} alt={brand} />
   
 
     </div>
@@ -45,22 +46,15 @@ const ProductCard = ({model,price,logo,brand}) => {
         <p>{brand}</p>
         </div>
         <div className="color-price">
-        <div className="color-option" onClick={handleColorChange}>   
-
-          <span className="color">Colour:</span>
-          <div className="circles">
-            <span className={`circle blue ${activeClass}`} id="blue"></span>
-            <span className={`circle pink ${activeClass}`} id="pink"></span>
-            <span className={`circle yellow ${activeClass}`} id="yellow"></span>
-            </div>
-        </div>
+       
         <div className="price">
           <span className="price_num"> { price} FCFA</span>
         </div>
       </div>
       <div className="button">
         <div className="button-layer"></div>
-        <button onClick={addProd}>Add to Cart</button>
+        <button onClick={getInTouch}>Get it Now</button>
+       
       </div>
     </div>
   
